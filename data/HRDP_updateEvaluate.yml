@@ -1,0 +1,15 @@
+# 测试用例名称
+"case_name": "HRDP修改量表"
+# url地址
+"url": "/api-project/evaluate/update"
+# 请求类型
+"method": "POST"
+# data
+"data":
+  "qtUrl": "http://gyfyy.com/fhir/Questionnaire/mxzsxfjbscwjCOPDPS-1594889641308"
+  "description": "这是描述！！！"
+  "diseasesList":
+   - "1386134239147241473"
+
+# 期望结果
+"expect": '"msg": "成功"'

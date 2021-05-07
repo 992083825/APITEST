@@ -1,0 +1,13 @@
+
+# 测试用例名称
+"case_name": "获取医院科室信息"
+# url地址
+"url": "/api-users/user/getUserInfo"
+# 请求类型
+"method": "GET"
+# data
+"data":
+  id: "4467887"
+  access_token: "db109c3c-a388-4d30-abb1-9f5ddd7dd221"
+# 期望结果
+"expect": '"msg": "成功"'

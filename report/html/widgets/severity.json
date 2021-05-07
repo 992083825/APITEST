@@ -1,0 +1,531 @@
+[ {
+  "uid" : "3464a6dfc24303cd",
+  "name" : "AKSO咳嗽患者的权重(易报错的接口)",
+  "time" : {
+    "start" : 1619769789377,
+    "stop" : 1619769793131,
+    "duration" : 3754
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "abe164c32730cdec",
+  "name" : "获取Titan筛选的数据列表--糖尿病--诊断(1型糖尿病,2型糖尿病)",
+  "time" : {
+    "start" : 1619769868084,
+    "stop" : 1619769872782,
+    "duration" : 4698
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3fd350ce7097b7e3",
+  "name" : "获取Titan筛选的数据列表--糖尿病--基本信息，首页重要诊疗信息，现病史",
+  "time" : {
+    "start" : 1619769849829,
+    "stop" : 1619769854220,
+    "duration" : 4391
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc0760df219b4991",
+  "name" : "HRDP量表评分详情",
+  "time" : {
+    "start" : 1619769805783,
+    "stop" : 1619769805850,
+    "duration" : 67
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e02b2e138bfd4863",
+  "name" : "HRDP禁用后启用量表",
+  "time" : {
+    "start" : 1619769799695,
+    "stop" : 1619769799748,
+    "duration" : 53
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5170fb61d6b32c",
+  "name" : "HRDP量表支持-文献来源",
+  "time" : {
+    "start" : 1619769805420,
+    "stop" : 1619769805510,
+    "duration" : 90
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ffd632922b65bbd9",
+  "name" : "HRDP已提交量表的答案",
+  "time" : {
+    "start" : 1619769806809,
+    "stop" : 1619769806877,
+    "duration" : 68
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ba22a0ec8437210e",
+  "name" : "AKSO查询咳嗽时的联想词",
+  "time" : {
+    "start" : 1619769789294,
+    "stop" : 1619769789370,
+    "duration" : 76
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "106773283480a289",
+  "name" : "HRDP量表信息—证据说明",
+  "time" : {
+    "start" : 1619769805532,
+    "stop" : 1619769805615,
+    "duration" : 83
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9ff4b510e5fb2587",
+  "name" : "AKSO住院指标统计--检验",
+  "time" : {
+    "start" : 1619769793668,
+    "stop" : 1619769793757,
+    "duration" : 89
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "696c94f2572605fe",
+  "name" : "AKSO患者诊疗时间轴",
+  "time" : {
+    "start" : 1619769796548,
+    "stop" : 1619769797322,
+    "duration" : 774
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f23645e78369c68",
+  "name" : "获取Titan筛选的数据列表--脑卒中--症状(神经症状方位,神经系统症状,消化系统症状)",
+  "time" : {
+    "start" : 1619769821573,
+    "stop" : 1619769826784,
+    "duration" : 5211
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d3c9a146077d23f",
+  "name" : "HRDP修改科室信息",
+  "time" : {
+    "start" : 1619769798842,
+    "stop" : 1619769798929,
+    "duration" : 87
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2f87329212b0a27",
+  "name" : "获取Titan筛选的数据列表--脑卒中--既往病史，评价量表，病程记录",
+  "time" : {
+    "start" : 1619769840560,
+    "stop" : 1619769845011,
+    "duration" : 4451
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "30c59da97499cce",
+  "name" : "登录接口",
+  "time" : {
+    "start" : 1619769785112,
+    "stop" : 1619769785294,
+    "duration" : 182
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5fb1229e709bf084",
+  "name" : "HRDP新建量表",
+  "time" : {
+    "start" : 1619769799167,
+    "stop" : 1619769799264,
+    "duration" : 97
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "964887a52a22a51",
+  "name" : "HRDP删除科室",
+  "time" : {
+    "start" : 1619769807206,
+    "stop" : 1619769807390,
+    "duration" : 184
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d3d4246955bdc79e",
+  "name" : "HRDP新建疾病",
+  "time" : {
+    "start" : 1619769798061,
+    "stop" : 1619769798220,
+    "duration" : 159
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ebbce12556defd6b",
+  "name" : "AKSO住院指标统计--检查",
+  "time" : {
+    "start" : 1619769793765,
+    "stop" : 1619769793842,
+    "duration" : 77
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "16b1b093b175be7",
+  "name" : "获取主要诊断为哮喘的患者列表",
+  "time" : {
+    "start" : 1619769788112,
+    "stop" : 1619769788685,
+    "duration" : 573
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4e42a94778de7192",
+  "name" : "HRDP患者评分",
+  "time" : {
+    "start" : 1619769806894,
+    "stop" : 1619769806981,
+    "duration" : 87
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b151b06325986761",
+  "name" : "获取医院科室信息",
+  "time" : {
+    "start" : 1619769785308,
+    "stop" : 1619769785456,
+    "duration" : 148
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef92068165a80e54",
+  "name" : "获取Titan筛选的数据列表--脑卒中--体征",
+  "time" : {
+    "start" : 1619769831415,
+    "stop" : 1619769835714,
+    "duration" : 4299
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "336c6f6691b9dc89",
+  "name" : "HRDP量表答案",
+  "time" : {
+    "start" : 1619769805178,
+    "stop" : 1619769805397,
+    "duration" : 219
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6f118b98394708e7",
+  "name" : "AKSO治疗路径",
+  "time" : {
+    "start" : 1619769793849,
+    "stop" : 1619769796538,
+    "duration" : 2689
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab7bc852167a8bc7",
+  "name" : "test_get_patients_with_cough[p_cough0]",
+  "time" : {
+    "start" : 1619769788694,
+    "stop" : 1619769789227,
+    "duration" : 533
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bcc5709ef6f1b2ce",
+  "name" : "HRDP量表趋势分析",
+  "time" : {
+    "start" : 1619769806993,
+    "stop" : 1619769807068,
+    "duration" : 75
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "42028b4677fb2f98",
+  "name" : "HRDP修改量表",
+  "time" : {
+    "start" : 1619769799460,
+    "stop" : 1619769799549,
+    "duration" : 89
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0a6313ade84490b",
+  "name" : "HRDP新增子科室，并绑定咳嗽疾病",
+  "time" : {
+    "start" : 1619769798732,
+    "stop" : 1619769798827,
+    "duration" : 95
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "479eaa0c39e04dc3",
+  "name" : "HRDP量表内容详情",
+  "time" : {
+    "start" : 1619769805625,
+    "stop" : 1619769805776,
+    "duration" : 151
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "34f53d7d2140b152",
+  "name" : "获取Titan筛选的数据列表--脑卒中--基本信息（年龄段,起病时间，起病状态）",
+  "time" : {
+    "start" : 1619769812897,
+    "stop" : 1619769817033,
+    "duration" : 4136
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4facdaf7077894e6",
+  "name" : "HRDP量表列表",
+  "time" : {
+    "start" : 1619769799275,
+    "stop" : 1619769799445,
+    "duration" : 170
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "72fab6c17c921ec5",
+  "name" : "HRDP提交量表",
+  "time" : {
+    "start" : 1619769805860,
+    "stop" : 1619769806475,
+    "duration" : 615
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5acd411cc5b62602",
+  "name" : "HRDP量表数据",
+  "time" : {
+    "start" : 1619769806491,
+    "stop" : 1619769806592,
+    "duration" : 101
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "534a749f4d86dc98",
+  "name" : "HRDP已提交量表的列表",
+  "time" : {
+    "start" : 1619769806635,
+    "stop" : 1619769806799,
+    "duration" : 164
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "663c70c6b41c4b91",
+  "name" : "HRDP禁用后启用量表",
+  "time" : {
+    "start" : 1619769799567,
+    "stop" : 1619769799685,
+    "duration" : 118
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a765a53e53db4f0",
+  "name" : "HRDP删除疾病",
+  "time" : {
+    "start" : 1619769807409,
+    "stop" : 1619769807490,
+    "duration" : 81
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4aae4856c484ba1",
+  "name" : "HRDP删除量表",
+  "time" : {
+    "start" : 1619769807081,
+    "stop" : 1619769807194,
+    "duration" : 113
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "74992f621fbd810a",
+  "name" : "HRDP新增一级科室",
+  "time" : {
+    "start" : 1619769798385,
+    "stop" : 1619769798473,
+    "duration" : 88
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e7690b2129286ad",
+  "name" : "获取AKSO搜索条件信息",
+  "time" : {
+    "start" : 1619769789234,
+    "stop" : 1619769789286,
+    "duration" : 52
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4bb7038e427e2bc",
+  "name" : "获取Titan筛选的数据列表--糖尿病--临床表现，专科检查，护理信息，个人史，既往史，家族史",
+  "time" : {
+    "start" : 1619769858833,
+    "stop" : 1619769863472,
+    "duration" : 4639
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "31a5e3a30fef871a",
+  "name" : "HRDP搜索auto一级科室",
+  "time" : {
+    "start" : 1619769798483,
+    "stop" : 1619769798721,
+    "duration" : 238
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1064f13a9bca57dc",
+  "name" : "AKSO住院指标统计--基本信息",
+  "time" : {
+    "start" : 1619769793163,
+    "stop" : 1619769793268,
+    "duration" : 105
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "72cdc8a3ea9c1c85",
+  "name" : "AKSO住院指标统计--诊断",
+  "time" : {
+    "start" : 1619769793275,
+    "stop" : 1619769793397,
+    "duration" : 122
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "674d45e2b1fc0619",
+  "name" : "AKSO相似病例智能分析记录",
+  "time" : {
+    "start" : 1619769797938,
+    "stop" : 1619769798053,
+    "duration" : 115
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8983bdbcbd6c7cb6",
+  "name" : "HRDP选择填写量表的患者",
+  "time" : {
+    "start" : 1619769799760,
+    "stop" : 1619769805169,
+    "duration" : 5409
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "91d9316869b353d7",
+  "name" : "获取症状为气喘的患者列表",
+  "time" : {
+    "start" : 1619769787376,
+    "stop" : 1619769788104,
+    "duration" : 728
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6dbeaaa28931bcf4",
+  "name" : "HRDP搜索咳嗽关键词的疾病列表",
+  "time" : {
+    "start" : 1619769798232,
+    "stop" : 1619769798378,
+    "duration" : 146
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5836de94a7c1bedc",
+  "name" : "AKSO住院指标统计--临床表现",
+  "time" : {
+    "start" : 1619769793406,
+    "stop" : 1619769793527,
+    "duration" : 121
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e35b381594ab4fa",
+  "name" : "AKSO患者对比",
+  "time" : {
+    "start" : 1619769797331,
+    "stop" : 1619769797920,
+    "duration" : 589
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8413839d8beb45ec",
+  "name" : "获取AKSO患者列表信息",
+  "time" : {
+    "start" : 1619769785489,
+    "stop" : 1619769787366,
+    "duration" : 1877
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8e0f499986ca58b4",
+  "name" : "HRDP选择量表",
+  "time" : {
+    "start" : 1619769798940,
+    "stop" : 1619769799156,
+    "duration" : 216
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20dc62ea5631da86",
+  "name" : "AKSO住院指标统计--药品",
+  "time" : {
+    "start" : 1619769793537,
+    "stop" : 1619769793660,
+    "duration" : 123
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

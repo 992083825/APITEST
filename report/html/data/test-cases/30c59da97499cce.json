@@ -1,0 +1,70 @@
+{
+  "uid" : "30c59da97499cce",
+  "name" : "登录接口",
+  "fullName" : "testcase.test_01login.TestLogin#test_login[login0]",
+  "historyId" : "9c91ab5ea9f89295f23f3635909224a8",
+  "time" : {
+    "start" : 1619769785112,
+    "stop" : 1619769785294,
+    "duration" : 182
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_01login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-3M571DA"
+  }, {
+    "name" : "thread",
+    "value" : "7940-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_01login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "login",
+    "value" : "{'url': '/api-auth/login', 'data': {'userName': '997', 'passwd': 'tP123456@', 'orgId': 75635}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f90ed33719ff18e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619767043525,
+        "stop" : 1619767043762,
+        "duration" : 237
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "30c59da97499cce.json",
+  "parameterValues" : [ "{'url': '/api-auth/login', 'data': {'userName': '997', 'passwd': 'tP123456@', 'orgId': 75635}}" ]
+}

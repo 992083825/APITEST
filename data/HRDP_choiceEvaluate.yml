@@ -1,0 +1,19 @@
+# 测试用例名称
+"case_name": "HRDP选择量表"
+# url地址
+"url": "/api-project/evaluate/choice"
+  # 请求类型
+"method": "GET"
+# data
+"data":
+  org_ids: true
+  authName: 997
+  access_token: 13429894-0e16-4711-bc76-680eec390c12
+  uniqu_no: 9F5E0DC2BB504FFABD279FE3324867D0
+  operatorId: 4467887
+  authUserId: 4467887
+  authToken: 13429894-0e16-4711-bc76-680eec390c12
+# 期望结果
+"expect":
+  - '"TYPE": "scale"'
+  - '"msg": "成功"'

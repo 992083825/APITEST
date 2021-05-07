@@ -1,0 +1,19 @@
+# 测试用例名称
+"case_name": "获取AKSO搜索条件信息"
+# url地址
+"url": "/api-es/similarnew/data/getSearchInfo.json"
+# 请求类型
+"method": "GET"
+# data
+"data":
+  org_ids: true
+  authName: 997
+  access_token: f11159c8-2461-4167-ad12-4a8072cf738d
+  uniqu_no: 9F5E0DC2BB504FFABD279FE3324867D0
+  operatorId: 4467887
+  authUserId: 4467887
+  authToken: f11159c8-2461-4167-ad12-4a8072cf738d
+# 期望结果
+"expect":
+  - '"responseResult": "SUCCESS", "responseMsg": "操作成功！"'
+  - '{"mainDiag": "主要诊断", "allDiag": "全部诊断", "symp": "症状", "patientName": "患者名称", "inPatientNo": "住院流水号"}'

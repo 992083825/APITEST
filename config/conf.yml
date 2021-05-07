@@ -1,0 +1,21 @@
+BASE:
+ #log等级
+ log_level: "debug"
+ # 扩展名
+ log_extension: ".log"
+ test:
+   url: "http://192.168.0.222:9000"
+
+login:
+  url: /api-auth/login
+  data:
+    userName: "997"
+    passwd: tP123456@
+    orgId: 75635
+
+email:
+  smtpserver: smtp.qq.com
+  username: 992083825@qq.com
+  password: eqofshipffndbccj
+  receiver: 992083825@qq.com
+

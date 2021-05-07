@@ -1,0 +1,20 @@
+# 测试用例名称
+"case_name": "HRDP新建疾病"
+# url地址
+"url": "/api-project/diseases/add?"
+# 请求类型
+"method": "POST"
+# data
+"data":
+  diseasesName: 咳嗽
+  org_ids: true
+  authName: 997
+  access_token: 604e184e-0b29-4774-96c0-0d5399dd3679
+  uniqu_no: 9F5E0DC2BB504FFABD279FE3324867D0
+  operatorId: 4467887
+  authUserId: 4467887
+  authToken: 604e184e-0b29-4774-96c0-0d5399dd3679
+# 期望结果
+"expect":
+  - '"data": "新增疾病成功"'
+  - '"msg": "成功"'

@@ -1,0 +1,5 @@
+DEBUG    C:\Users\Acer\PycharmProjects\API_TEST\utils\LogUtil.py:handle_test.py:10 HRDP患者评分
+DEBUG    C:\Users\Acer\PycharmProjects\API_TEST\utils\LogUtil.py:handle_test.py:14 {'answerPatientId': '585527375740145664', 'org_ids': True, 'authName': 997, 'access_token': '974ac013-83cd-4206-aac4-a642e6f06cdd', 'uniqu_no': '9F5E0DC2BB504FFABD279FE3324867D0', 'operatorId': 4467887, 'authUserId': 4467887, 'authToken': '974ac013-83cd-4206-aac4-a642e6f06cdd'}
+DEBUG    C:\Users\Acer\PycharmProjects\API_TEST\utils\LogUtil.py:handle_test.py:16 "msg": "成功"
+DEBUG    Requests:RequestsUtil.py:38 发送get请求
+INFO     C:\Users\Acer\PycharmProjects\API_TEST\utils\LogUtil.py:handle_test.py:31 {'code': 200, 'body': {'code': 1, 'msg': '成功', 'data': {'score': {'title': '评分', 'result': '6'}, 'degree': {'title': '严重程度', 'result': '高危'}, 'other': [{'title': '推荐建议', 'result': '您的呼吸问题可能是慢性阻塞性肺疾病导致，需找医生做肺功能检查，帮助评价您的呼吸状况'}]}}}

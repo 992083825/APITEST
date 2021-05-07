@@ -1,0 +1,19 @@
+# 测试用例名称
+"case_name": "显示AKSO权重模板"
+# url地址
+"url": "/api-python/generalSimilarity/showWeightTemplate"
+# 请求类型
+"method": "GET"
+# data
+"data":
+  ptType: 1
+  default: 1
+  org_ids: true
+  authName: 997
+  access_token: d3112405-4f1a-4ccc-aa16-4d58ef7bf1fc
+  uniqu_no: 9F5E0DC2BB504FFABD279FE3324867D0
+  operatorId: 4467887
+  authUserId: 4467887
+  authToken: d3112405-4f1a-4ccc-aa16-4d58ef7bf1fc
+# 期望结果
+"expect":  '基本信息'

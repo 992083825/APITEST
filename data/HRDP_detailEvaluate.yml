@@ -1,0 +1,19 @@
+# 测试用例名称
+"case_name": "HRDP量表评分详情"
+# url地址
+"url": "/api-project/evaluate/detail"
+# 请求类型
+"method": "GET"
+# data
+"data":
+  qtUrl: http://gyfyy.com/fhir/Questionnaire/mxzsxfjbscwjCOPDPS-1594889641308
+  org_ids: true
+  authName: 997
+  access_token: 974ac013-83cd-4206-aac4-a642e6f06cdd
+  uniqu_no: 9F5E0DC2BB504FFABD279FE3324867D0
+  operatorId: 4467887
+  authUserId: 4467887
+  authToken: 974ac013-83cd-4206-aac4-a642e6f06cdd
+
+# 期望结果
+"expect": '"msg": "成功"'

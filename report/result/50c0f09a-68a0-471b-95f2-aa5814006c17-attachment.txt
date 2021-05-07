@@ -1,0 +1,5 @@
+DEBUG    C:\Users\Acer\PycharmProjects\API_TEST\utils\LogUtil.py:handle_test.py:10 HRDP修改科室信息
+DEBUG    C:\Users\Acer\PycharmProjects\API_TEST\utils\LogUtil.py:handle_test.py:14 {'departmentName': 'auto父科室', 'serialNo': 1, 'diseases': '', 'parentId': '', 'departmentId': '1388041249384165378', 'org_ids': True, 'authName': 997, 'access_token': '13429894-0e16-4711-bc76-680eec390c12', 'uniqu_no': '9F5E0DC2BB504FFABD279FE3324867D0', 'operatorId': 4467887, 'authUserId': 4467887, 'authToken': '13429894-0e16-4711-bc76-680eec390c12'}
+DEBUG    C:\Users\Acer\PycharmProjects\API_TEST\utils\LogUtil.py:handle_test.py:16 "msg": "成功"
+DEBUG    Requests:RequestsUtil.py:76 发送post请求
+INFO     C:\Users\Acer\PycharmProjects\API_TEST\utils\LogUtil.py:handle_test.py:31 {'code': 200, 'body': {'code': 1, 'msg': '成功', 'data': None}}

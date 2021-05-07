@@ -1,0 +1,23 @@
+# 测试用例名称
+"case_name": "AKSO查询咳嗽时的联想词"
+# url地址
+"url": "/api-es/similarnew/data/getDict.json"
+# 请求类型
+"method": "GET"
+# data
+"data":
+  type: mainDiag
+  keyWord: 咳嗽
+  limit: 10
+  org_ids: true
+  authName: 997
+  access_token: f11159c8-2461-4167-ad12-4a8072cf738d
+  uniqu_no: 9F5E0DC2BB504FFABD279FE3324867D0
+  operatorId: 4467887
+  authUserId: 4467887
+  authToken: f11159c8-2461-4167-ad12-4a8072cf738d
+# 期望结果
+"expect":
+  - '咳嗽'
+  - '"responseMsg": "操作成功！"'
+  - '"responseResult": "SUCCESS"'

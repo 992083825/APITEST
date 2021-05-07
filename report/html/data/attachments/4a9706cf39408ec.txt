@@ -1,0 +1,5 @@
+DEBUG    C:\Users\Acer\PycharmProjects\API_TEST\utils\LogUtil.py:handle_test.py:10 HRDP患者评分
+DEBUG    C:\Users\Acer\PycharmProjects\API_TEST\utils\LogUtil.py:handle_test.py:14 {'answerPatientId': '585538840043851776', 'org_ids': True, 'authName': 997, 'access_token': '974ac013-83cd-4206-aac4-a642e6f06cdd', 'uniqu_no': '9F5E0DC2BB504FFABD279FE3324867D0', 'operatorId': 4467887, 'authUserId': 4467887, 'authToken': '974ac013-83cd-4206-aac4-a642e6f06cdd'}
+DEBUG    C:\Users\Acer\PycharmProjects\API_TEST\utils\LogUtil.py:handle_test.py:16 "msg": "成功"
+DEBUG    Requests:RequestsUtil.py:38 发送get请求
+INFO     C:\Users\Acer\PycharmProjects\API_TEST\utils\LogUtil.py:handle_test.py:31 {'code': 200, 'body': {'code': 1, 'msg': '成功', 'data': {'score': {'title': '评分', 'result': '4'}, 'degree': {'title': '严重程度', 'result': '低危'}, 'other': [{'title': '推荐建议', 'result': '您可减少暴露于慢性阻塞性肺疾病的危险因素，如戒烟、生物燃料等，并进行预防性保健。若你有呼吸问题，请将该问卷拿给医生看，医生会帮助评估您呼吸问题的类型'}]}}}

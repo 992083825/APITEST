@@ -1,0 +1,22 @@
+# 测试用例名称
+"case_name": "AKSO咳嗽患者的权重(易报错的接口)"
+# url地址
+"url": "/api-python/generalSimilarity/matchWeight"
+# 请求类型
+"method": "POST"
+# data
+"data":
+  inpatientNo: ZY060000633367
+  # 注意data冒号后面要加空格
+  data: '{"基本信息":{"num":0,"status":0},"全部诊断":{"num":0,"status":0},"主要诊断":{"num":10,"status":1},"临床表现":{"num":0,"status":0},"主诉":{"num":0,"status":0},"现病史":{"num":0,"status":0},"家族史":{"num":0,"status":0},"既往史":{"num":0,"status":0},"个人史":{"num":0,"status":0},"检查":{"num":0,"status":0},"检验":{"num":0,"status":0}}'
+
+  hospitalCode: 12440100455344205E
+  org_ids: true
+  authName: 997
+  access_token: d3112405-4f1a-4ccc-aa16-4d58ef7bf1fc
+  uniqu_no: 9F5E0DC2BB504FFABD279FE3324867D0
+  operatorId: 4467887
+  authUserId: 4467887
+  authToken: d3112405-4f1a-4ccc-aa16-4d58ef7bf1fc
+# 期望结果
+"expect":  "resultData"

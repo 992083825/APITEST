@@ -1,0 +1,20 @@
+---
+# 测试用例名称
+"case_name": "HRDP删除疾病"
+# url地址
+"url": "/api-project/diseases/delete"
+# 请求类型
+"method": "POST"
+# data
+"data":
+  id: 1386134239147241473
+  diseasesName: 咳嗽
+  org_ids: true
+  authName: 997
+  access_token: 44499358-0308-420f-a843-865ba3670a10
+  uniqu_no: 9F5E0DC2BB504FFABD279FE3324867D0
+  operatorId: 4467887
+  authUserId: 4467887
+  authToken: 44499358-0308-420f-a843-865ba3670a10
+# 期望结果
+"expect": '"msg": "成功"'

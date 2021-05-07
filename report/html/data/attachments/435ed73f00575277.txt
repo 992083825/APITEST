@@ -1,0 +1,7 @@
+DEBUG    C:\Users\Acer\PycharmProjects\API_TEST\utils\LogUtil.py:handle_test.py:104 {'url': 'http://gyfyy.com/fhir/Questionnaire/mxzsxfjbscwjCOPDPS-1594889641308', 'org_ids': True, 'authName': 997, 'access_token': '974ac013-83cd-4206-aac4-a642e6f06cdd', 'uniqu_no': '9F5E0DC2BB504FFABD279FE3324867D0', 'operatorId': 4467887, 'authUserId': 4467887, 'authToken': '974ac013-83cd-4206-aac4-a642e6f06cdd'}
+DEBUG    Requests:RequestsUtil.py:38 发送get请求
+DEBUG    C:\Users\Acer\PycharmProjects\API_TEST\utils\LogUtil.py:handle_test.py:10 HRDP量表答案
+DEBUG    C:\Users\Acer\PycharmProjects\API_TEST\utils\LogUtil.py:handle_test.py:14 {'url': 'http://gyfyy.com/fhir/Questionnaire/mxzsxfjbscwjCOPDPS-1594889641308', 'org_ids': True, 'authName': '997', 'access_token': '8594984c-54cd-49c1-94ab-1dfa20dd07c3', 'uniqu_no': '9F5E0DC2BB504FFABD279FE3324867D0', 'operatorId': '4467887', 'authUserId': '4467887', 'authToken': '8594984c-54cd-49c1-94ab-1dfa20dd07c3'}
+DEBUG    C:\Users\Acer\PycharmProjects\API_TEST\utils\LogUtil.py:handle_test.py:16 慢性阻塞性肺疾病筛查问卷 (COPD-PS)
+DEBUG    Requests:RequestsUtil.py:38 发送get请求
+INFO     C:\Users\Acer\PycharmProjects\API_TEST\utils\LogUtil.py:handle_test.py:31 {'code': 200, 'body': {'code': 1, 'msg': '成功', 'data': {'http://gyfyy.com/fhir/Questionnaire/mxzsxfjbscwjCOPDPS-1594889641308': {'answerId': '585538840572334080', 'qtTitle': '慢性阻塞性肺疾病筛查问卷 (COPD-PS)'}}}}

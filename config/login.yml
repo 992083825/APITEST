@@ -1,0 +1,13 @@
+login:
+  SSO_COOKIE: 271a1c46-7af9-49dd-81d4-1316d782eda8
+  JSESSIONID: 7151E8D63F1C99C9494754C2CD403D37
+  uniqu_no: 9F5E0DC2BB504FFABD279FE3324867D0
+  authUserId: '4467887'
+  operatorId: '4467887'
+  userId: '4467887'
+  authName: '997'
+  access_token: 33d791a1-d963-4bbc-8bd4-e0bff173ad5c
+  authToken: 33d791a1-d963-4bbc-8bd4-e0bff173ad5c
+  orgName: 呼吸科
+  roleName: 测试角色
+  hospitalCode: 12440100455344205E

@@ -1,0 +1,23 @@
+# 测试用例名称
+"case_name": "AKSO患者对比"
+# url地址
+"url": "/api-python/generalSimilarity/patientContrast"
+# 请求类型
+"method": "POST"
+# data
+"data":
+  inpatientNo: ZY060000633367
+  scoreData: '{"ZY020000633367|12440100455344205E":"98.88%","ZY040000633367|12440100455344205E":"98.88%"}'
+  hospitalCode: 12440100455344205E
+  org_ids: true
+  authName: 997
+  access_token: af1294d3-3eb5-4032-a9ba-a81283ea47c6
+  uniqu_no: 9F5E0DC2BB504FFABD279FE3324867D0
+  operatorId: 4467887
+  authUserId: 4467887
+  authToken: af1294d3-3eb5-4032-a9ba-a81283ea47c6
+# 期望结果
+"expect":
+  - '"returnCode": "SUCCESS"'
+  - '"returnMsg": "完成"'
+  - '"住院流水号"'

@@ -1,0 +1,5 @@
+DEBUG    C:\Users\Acer\PycharmProjects\API_TEST\utils\LogUtil.py:handle_test.py:10 获取AKSO搜索条件信息
+DEBUG    C:\Users\Acer\PycharmProjects\API_TEST\utils\LogUtil.py:handle_test.py:14 {'org_ids': True, 'authName': 997, 'access_token': 'f11159c8-2461-4167-ad12-4a8072cf738d', 'uniqu_no': '9F5E0DC2BB504FFABD279FE3324867D0', 'operatorId': 4467887, 'authUserId': 4467887, 'authToken': 'f11159c8-2461-4167-ad12-4a8072cf738d'}
+DEBUG    C:\Users\Acer\PycharmProjects\API_TEST\utils\LogUtil.py:handle_test.py:16 ['"responseResult": "SUCCESS", "responseMsg": "操作成功！"', '{"mainDiag": "主要诊断", "allDiag": "全部诊断", "symp": "症状", "patientName": "患者名称", "inPatientNo": "住院流水号"}']
+DEBUG    Requests:RequestsUtil.py:38 发送get请求
+INFO     C:\Users\Acer\PycharmProjects\API_TEST\utils\LogUtil.py:handle_test.py:31 {'code': 200, 'body': {'responseData': {'mainDiag': '主要诊断', 'allDiag': '全部诊断', 'symp': '症状', 'patientName': '患者名称', 'inPatientNo': '住院流水号'}, 'responseExtendData': None, 'responseResult': 'SUCCESS', 'responseMsg': '操作成功！', 'responseException': None, 'responseLoginStatus': True, 'responseExceptionStackTraceElement': None, 'responseExceptionMessage': None}}

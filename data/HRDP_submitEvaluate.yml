@@ -1,0 +1,29 @@
+# 测试用例名称
+"case_name": "HRDP提交量表"
+# url地址
+"url": "/api-project/answer/save.json"
+# 请求类型
+"method": "POST"
+# data
+"data":
+  type: 2
+  classname: assessmentScaleSave
+  answerId: 584433035567566848
+  context:
+    '[{"linkId":"1c1c3770-65c9-42f9-a98e-c59fb134256e","sectionItemRId":"476465294047580160","showType":"choice","value":[{"display":"由于气促走路比同龄人慢，或需要停下来休息","code":"2","content":"","sectionItemOptionRId":"476465294106300416"}]}]'
+
+  qtId: 476465183305371648
+  reqJson:
+    "patiId": "fb8637c8-e413-46bf-9e6e-e1c57d2833ae"
+    "block": "1"
+  org_ids: true
+  authName: 997
+  access_token: 974ac013-83cd-4206-aac4-a642e6f06cdd
+  uniqu_no: 9F5E0DC2BB504FFABD279FE3324867D0
+  operatorId: 4467887
+  authUserId: 4467887
+  authToken: 974ac013-83cd-4206-aac4-a642e6f06cdd
+
+# 期望结果
+"expect":
+  - '"msg": "成功"'

@@ -1,0 +1,21 @@
+# 测试用例名称
+"case_name": "AKSO相似病例智能分析记录"
+# url地址
+"url": "/api-python/generalSimilarity/getSimilarPatientRecord"
+# 请求类型
+"method": "GET"
+# data
+"data":
+  ptType: 1
+  page: 1
+  size: 10
+  name: similar
+  org_ids: true
+  authName: 997
+  access_token: 604e184e-0b29-4774-96c0-0d5399dd3679
+  uniqu_no: 9F5E0DC2BB504FFABD279FE3324867D0
+  operatorId: 4467887
+  authUserId: 4467887
+  authToken: 604e184e-0b29-4774-96c0-0d5399dd3679
+# 期望结果
+"expect": ZY060000633367

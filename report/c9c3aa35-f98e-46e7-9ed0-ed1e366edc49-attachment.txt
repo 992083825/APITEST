@@ -1,0 +1,2 @@
+DEBUG    C:\Users\Acer\PycharmProjects\API_TEST\utils\LogUtil.py:handle_test.py:71 {'diseaseIds': '1,100,123,303,622,140,126,141,161,624,623,603,363,642,503,502,466,402,384,362,482,522,562', 'topCategoryIds': '15393,15535,15758,63327,63514,63777,63553,15782,15809,72980', 'org_ids': True, 'authName': 997, 'access_token': 'b1509a34-31cd-4cc0-be4d-b8bdee3f6cda', 'uniqu_no': '9F5E0DC2BB504FFABD279FE3324867D0', 'operatorId': 4467887, 'authUserId': 4467887, 'authToken': 'b1509a34-31cd-4cc0-be4d-b8bdee3f6cda'}
+DEBUG    Requests:RequestsUtil.py:38 发送get请求

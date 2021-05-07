@@ -1,0 +1,78 @@
+---
+# 测试用例名称
+"case_name": "获取AKSO患者列表信息"
+# url地址
+"url": "/api-es/similarnew/data/getPatientList.json"
+# 请求类型
+"method": "GET"
+# data
+"data":
+  userId: 4467887
+  startDate: ""
+  endDate: ""
+  page: 1
+  size: 10
+  org_ids: true
+  authName: 997
+  access_token: 5304d824-2ccd-4e76-ac52-e926e40dc633
+  uniqu_no: 9F5E0DC2BB504FFABD279FE3324867D0
+  operatorId: 4467887
+  authUserId: 4467887
+  authToken: 5304d824-2ccd-4e76-ac52-e926e40dc633
+# 期望结果
+"expect":  '"responseMsg": "获取相似度患者列表操作成功！"'
+
+---
+# 测试用例名称
+"case_name": "获取症状为气喘的患者列表"
+# url地址
+"url": "/api-es/similarnew/data/getPatientList.json"
+# 请求类型
+"method": "GET"
+# data
+"data":
+  userId: 4467887
+  startDate: ""
+  endDate: ""
+  page: 1
+  size: 10
+  "paramJson": '[{"key": "symp","value": "气喘","andOr": ""}]'
+#  "paramJson":
+#    -  "key": "symp"
+#    -  "value": "气喘"
+#    -  "andOr": ""
+  org_ids: true
+  authName: 997
+  access_token: f11159c8-2461-4167-ad12-4a8072cf738d
+  uniqu_no: 9F5E0DC2BB504FFABD279FE3324867D0
+  operatorId: 4467887
+  authUserId: 4467887
+  authToken: f11159c8-2461-4167-ad12-4a8072cf738d
+# 期望结果
+"expect":  '气喘'
+
+---
+# 测试用例名称
+"case_name": "获取主要诊断为哮喘的患者列表"
+# url地址
+"url": "/api-es/similarnew/data/getPatientList.json"
+# 请求类型
+"method": "GET"
+# data
+"data":
+  userId: 4467887
+  startDate: ""
+  endDate: ""
+  page: 1
+  size: 10
+  paramJson:
+    '[{"key":"mainDiag","value":"哮喘","andOr":""}]'
+  org_ids: true
+  authName: 997
+  access_token: d3112405-4f1a-4ccc-aa16-4d58ef7bf1fc
+  uniqu_no: 9F5E0DC2BB504FFABD279FE3324867D0
+  operatorId: 4467887
+  authUserId: 4467887
+  authToken: d3112405-4f1a-4ccc-aa16-4d58ef7bf1fc
+# 期望结果
+"expect":  '哮喘'

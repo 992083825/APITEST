@@ -1,0 +1,25 @@
+# 测试用例名称
+"case_name": "AKSO患者诊疗时间轴"
+# url地址
+"url": "/api-es/similarnew/data/getTimeAxis.json"
+# 请求类型
+"method": "GET"
+# data
+"data":
+  inpatientNo: ZY020000633367
+  hospitalCode: 12440100455344205E
+  org_ids: true
+  authName: 997
+  access_token: af1294d3-3eb5-4032-a9ba-a81283ea47c6
+  uniqu_no: 9F5E0DC2BB504FFABD279FE3324867D0
+  operatorId: 4467887
+  authUserId: 4467887
+  authToken: af1294d3-3eb5-4032-a9ba-a81283ea47c6
+# 期望结果
+"expect":
+  - '"responseMsg": "获取相似度时间轴数据操作成功！"'
+  - '"name": "诊断"'
+  - '"name": "检查"'
+  - '"name": "症状"'
+  - '"name": "检验"'
+  - '"name": "治疗"'
