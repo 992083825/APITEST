@@ -1,0 +1,79 @@
+{
+  "uid" : "3229ae02c4174363",
+  "name" : "HRDP删除疾病",
+  "fullName" : "testcase.test_03hrdp.TestHRDP#test_diseases_delete[dis_delete0]",
+  "historyId" : "872c48452a9d84f788815ff9be4f3ec3",
+  "time" : {
+    "start" : 1619769807409,
+    "stop" : 1619769807490,
+    "duration" : 81
+  },
+  "description" : "<font color='red'>请求URL: </font> http://192.168.0.222:9000/api-project/diseases/delete<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>请求参数: </font>{'id': '1386134239147241473', 'diseasesName': '咳嗽', 'org_ids': True, 'authName': '997', 'access_token': '8594984c-54cd-49c1-94ab-1dfa20dd07c3', 'uniqu_no': '9F5E0DC2BB504FFABD279FE3324867D0', 'operatorId': '4467887', 'authUserId': '4467887', 'authToken': '8594984c-54cd-49c1-94ab-1dfa20dd07c3'}<Br/><font color='red'>期望字段: </font>\"msg\": \"成功\"<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'code': 1, 'msg': '成功', 'data': True}}",
+  "descriptionHtml" : "<p><font color='red'>请求URL: </font> http://192.168.0.222:9000/api-project/diseases/delete<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>请求参数: </font>{'id': '1386134239147241473', 'diseasesName': '咳嗽', 'org_ids': True, 'authName': '997', 'access_token': '8594984c-54cd-49c1-94ab-1dfa20dd07c3', 'uniqu_no': '9F5E0DC2BB504FFABD279FE3324867D0', 'operatorId': '4467887', 'authUserId': '4467887', 'authToken': '8594984c-54cd-49c1-94ab-1dfa20dd07c3'}<Br/><font color='red'>期望字段: </font>&quot;msg&quot;: &quot;成功&quot;<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'code': 1, 'msg': '成功', 'data': True}}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color='red'>请求URL: </font> http://192.168.0.222:9000/api-project/diseases/delete<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>请求参数: </font>{'id': '1386134239147241473', 'diseasesName': '咳嗽', 'org_ids': True, 'authName': '997', 'access_token': '8594984c-54cd-49c1-94ab-1dfa20dd07c3', 'uniqu_no': '9F5E0DC2BB504FFABD279FE3324867D0', 'operatorId': '4467887', 'authUserId': '4467887', 'authToken': '8594984c-54cd-49c1-94ab-1dfa20dd07c3'}<Br/><font color='red'>期望字段: </font>\"msg\": \"成功\"<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'code': 1, 'msg': '成功', 'data': True}}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ccbb04cf1c434e37",
+      "name" : "log",
+      "source" : "ccbb04cf1c434e37.txt",
+      "type" : "text/plain",
+      "size" : 777
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "高危疾病风险预测"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_03hrdp"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestHRDP"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-3M571DA"
+  }, {
+    "name" : "thread",
+    "value" : "7940-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_03hrdp"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dis_delete",
+    "value" : "{'case_name': 'HRDP删除疾病', 'url': '/api-project/diseases/delete', 'method': 'POST', 'data': {'id': 1386134239147241473, 'diseasesName': '咳嗽', 'org_ids': True, 'authName': 997, 'access_token': '44499358-0308-420f-a843-865ba3670a10', 'uniqu_no': '9F5E0DC2BB504FFABD279FE3324867D0', 'operatorId': 4467887, 'authUserId': 4467887, 'authToken': '44499358-0308-420f-a843-865ba3670a10'}, 'expect': '\"msg\": \"成功\"'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3229ae02c4174363.json",
+  "parameterValues" : [ "{'case_name': 'HRDP删除疾病', 'url': '/api-project/diseases/delete', 'method': 'POST', 'data': {'id': 1386134239147241473, 'diseasesName': '咳嗽', 'org_ids': True, 'authName': 997, 'access_token': '44499358-0308-420f-a843-865ba3670a10', 'uniqu_no': '9F5E0DC2BB504FFABD279FE3324867D0', 'operatorId': 4467887, 'authUserId': 4467887, 'authToken': '44499358-0308-420f-a843-865ba3670a10'}, 'expect': '\"msg\": \"成功\"'}" ]
+}
