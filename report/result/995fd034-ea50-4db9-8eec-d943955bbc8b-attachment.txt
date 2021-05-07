@@ -1,7 +1,0 @@
-DEBUG    C:\Users\Acer\PycharmProjects\API_TEST\utils\LogUtil.py:handle_test.py:71 {'departmentName': 'auto一级科室', 'serialNo': 1, 'diseases': 1386134239147241473, 'parentId': 1386157484453965826, 'org_ids': True, 'authName': 997, 'access_token': '13429894-0e16-4711-bc76-680eec390c12', 'uniqu_no': '9F5E0DC2BB504FFABD279FE3324867D0', 'operatorId': 4467887, 'authUserId': 4467887, 'authToken': '13429894-0e16-4711-bc76-680eec390c12'}
-DEBUG    Requests:RequestsUtil.py:38 发送get请求
-DEBUG    C:\Users\Acer\PycharmProjects\API_TEST\utils\LogUtil.py:handle_test.py:10 HRDP搜索auto一级科室
-DEBUG    C:\Users\Acer\PycharmProjects\API_TEST\utils\LogUtil.py:handle_test.py:14 {'departmentName': 'auto一级科室', 'serialNo': 1, 'diseases': 1386134239147241473, 'parentId': 1386157484453965826, 'org_ids': True, 'authName': '997', 'access_token': '18299ec2-8239-4b5f-8573-ffad3af922f3', 'uniqu_no': '9F5E0DC2BB504FFABD279FE3324867D0', 'operatorId': '4467887', 'authUserId': '4467887', 'authToken': '18299ec2-8239-4b5f-8573-ffad3af922f3'}
-DEBUG    C:\Users\Acer\PycharmProjects\API_TEST\utils\LogUtil.py:handle_test.py:16 "msg": "成功"
-DEBUG    Requests:RequestsUtil.py:38 发送get请求
-INFO     C:\Users\Acer\PycharmProjects\API_TEST\utils\LogUtil.py:handle_test.py:31 {'code': 200, 'body': {'code': 1, 'msg': '成功', 'data': [{'parentName': None, 'name': 'auto一级科室', 'diseases': [], 'id': '1388029773420294145', 'qtNum': 0, 'parentId': None, 'serialNo': 1, 'child': []}]}}

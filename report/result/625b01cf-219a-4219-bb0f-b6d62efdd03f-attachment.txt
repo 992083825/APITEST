@@ -1,2 +1,0 @@
-DEBUG    C:\Users\Acer\PycharmProjects\API_TEST\utils\LogUtil.py:handle_test.py:71 {'userId': 4467887, 'startDate': '', 'endDate': '', 'page': 1, 'size': 10, 'paramJson': "[{'key': 'symp', 'value': '咳嗽', 'andOr': ''}]", 'org_ids': True, 'authName': 997, 'access_token': 'f11159c8-2461-4167-ad12-4a8072cf738d', 'uniqu_no': '9F5E0DC2BB504FFABD279FE3324867D0', 'operatorId': 4467887, 'authUserId': 4467887, 'authToken': 'f11159c8-2461-4167-ad12-4a8072cf738d'}
-DEBUG    Requests:RequestsUtil.py:38 发送get请求

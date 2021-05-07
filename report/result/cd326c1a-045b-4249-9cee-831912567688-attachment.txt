@@ -1,5 +1,0 @@
-DEBUG    C:\Users\Acer\PycharmProjects\API_TEST\utils\LogUtil.py:handle_test.py:10 HRDP禁用后启用量表
-DEBUG    C:\Users\Acer\PycharmProjects\API_TEST\utils\LogUtil.py:handle_test.py:14 {'id': '1388041252643139585', 'state': 'shut', 'org_ids': True, 'authName': 997, 'access_token': '974ac013-83cd-4206-aac4-a642e6f06cdd', 'uniqu_no': '9F5E0DC2BB504FFABD279FE3324867D0', 'operatorId': 4467887, 'authUserId': 4467887, 'authToken': '974ac013-83cd-4206-aac4-a642e6f06cdd'}
-DEBUG    C:\Users\Acer\PycharmProjects\API_TEST\utils\LogUtil.py:handle_test.py:16 "msg": "成功"
-DEBUG    Requests:RequestsUtil.py:76 发送post请求
-INFO     C:\Users\Acer\PycharmProjects\API_TEST\utils\LogUtil.py:handle_test.py:31 {'code': 200, 'body': {'code': 1, 'msg': '成功', 'data': None}}

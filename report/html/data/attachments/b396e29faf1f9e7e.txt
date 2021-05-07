@@ -1,5 +1,0 @@
-DEBUG    C:\Users\Acer\PycharmProjects\API_TEST\utils\LogUtil.py:handle_test.py:10 HRDP新建量表
-DEBUG    C:\Users\Acer\PycharmProjects\API_TEST\utils\LogUtil.py:handle_test.py:14 {'qtUrl': 'http://gyfyy.com/fhir/Questionnaire/mxzsxfjbscwjCOPDPS-1594889641308', 'description': '这是描述', 'diseasesList': ['1386134239147241473']}
-DEBUG    C:\Users\Acer\PycharmProjects\API_TEST\utils\LogUtil.py:handle_test.py:16 "msg": "成功"
-DEBUG    Requests:RequestsUtil.py:76 发送post请求
-INFO     C:\Users\Acer\PycharmProjects\API_TEST\utils\LogUtil.py:handle_test.py:31 {'code': 200, 'body': {'code': 1, 'msg': '成功', 'data': None}}
