@@ -12,6 +12,6 @@ if __name__ == "__main__":
     # 将测试报告转为html格式
     cmd = "allure generate " + report_path + " -o " + report_html_path + " --clean"
     subprocess.call(cmd, shell=True)
-    '''allure open -h 127.0.0.1 -p 8083 ./Test/allure-result/html'''
-    cmd2 = "allure open -h 127.0.0.1 -p 8083" + report_html_path
-    subprocess.call(cmd2, shell=True)
+    # '''allure open -h 127.0.0.1 -p 8083 ./Test/allure-result/html'''
+    # cmd2 = "allure open -h 127.0.0.1 -p 8083" + report_html_path
+    # subprocess.call(cmd2, shell=True)
