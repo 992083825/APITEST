@@ -1,5 +1,0 @@
-DEBUG    C:\Users\Acer\PycharmProjects\API_TEST\utils\LogUtil.py:handle_test.py:10 HRDP删除疾病
-DEBUG    C:\Users\Acer\PycharmProjects\API_TEST\utils\LogUtil.py:handle_test.py:14 {'id': '1386134239147241473', 'diseasesName': '咳嗽', 'org_ids': True, 'authName': 997, 'access_token': '44499358-0308-420f-a843-865ba3670a10', 'uniqu_no': '9F5E0DC2BB504FFABD279FE3324867D0', 'operatorId': 4467887, 'authUserId': 4467887, 'authToken': '44499358-0308-420f-a843-865ba3670a10'}
-DEBUG    C:\Users\Acer\PycharmProjects\API_TEST\utils\LogUtil.py:handle_test.py:16 "msg": "成功"
-DEBUG    Requests:RequestsUtil.py:76 发送post请求
-INFO     C:\Users\Acer\PycharmProjects\API_TEST\utils\LogUtil.py:handle_test.py:31 {'code': 200, 'body': {'code': 1, 'msg': '成功', 'data': True}}

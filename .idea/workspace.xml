@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6324c827-672e-41e9-91f7-dcc6e796c3d7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/login.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/login.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/TITAN_getDataIndexValueTreeList.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data/TITAN_getDataIndexValueTreeList.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2021-05-07.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2021-05-07.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/Test_04titan.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/Test_04titan.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/testcase/Test_04titan.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="250">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -79,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/data/TITAN_getDataIndexValueTreeList.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="314">
-              <caret line="151" column="22" lean-forward="true" selection-start-line="151" selection-start-column="22" selection-end-line="151" selection-end-column="22" />
+              <caret line="151" column="22" selection-start-line="151" selection-start-column="22" selection-end-line="151" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -222,11 +218,6 @@
             <path>
               <item name="API_TEST" type="b2602c69:ProjectViewProjectNode" />
               <item name="API_TEST" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="API_TEST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="API_TEST" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="API_TEST" type="b2602c69:ProjectViewProjectNode" />
@@ -431,7 +422,7 @@
       <workItem from="1619772837972" duration="1420000" />
       <workItem from="1620284259801" duration="6156000" />
       <workItem from="1620351327151" duration="6468000" />
-      <workItem from="1620379544196" duration="4425000" />
+      <workItem from="1620379544196" duration="5033000" />
     </task>
     <servers />
   </component>
@@ -468,11 +459,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="313243000" />
+    <option name="totallyTimeSpent" value="313851000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.20682302" />
@@ -909,14 +899,14 @@
     <entry file="file://$PROJECT_DIR$/data/TITAN_getDataIndexValueTreeList.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
-          <caret line="151" column="22" lean-forward="true" selection-start-line="151" selection-start-column="22" selection-end-line="151" selection-end-column="22" />
+          <caret line="151" column="22" selection-start-line="151" selection-start-column="22" selection-end-line="151" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testcase/Test_04titan.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
