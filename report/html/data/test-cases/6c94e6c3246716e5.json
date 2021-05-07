@@ -1,0 +1,81 @@
+{
+  "uid" : "6c94e6c3246716e5",
+  "name" : "AKSO住院指标统计--诊断",
+  "fullName" : "testcase.Test_02akso.TestAKSO#test_report_data[r_data1]",
+  "historyId" : "434a2367a0519873066dbf6ce1549099",
+  "time" : {
+    "start" : 1620385323609,
+    "stop" : 1620385323718,
+    "duration" : 109
+  },
+  "description" : "<font color='red'>请求URL: </font> http://192.168.0.222:9000/api-sourcedata/quality/control/getReportDatas.json<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>请求参数: </font>{'reportNos': 'XS012,XS006', 'inPatientNos': 'ZY020000633367|12440100455344205E,ZY040000633367|12440100455344205E,ZY030000627064|12440100455344205E,ZY020000608428|12440100455344205E,ZY050000633367|12440100455344205E,ZY030000638484|12440100455344205E,ZY030000633367|12440100455344205E,ZY040000627064|12440100455344205E,ZY060000616498|12440100455344205E,ZY020000634616|12440100455344205E,ZY040000634616|12440100455344205E,ZY040000616498|12440100455344205E,ZY020000627064|12440100455344205E,ZY090000615299|12440100455344205E,ZY030000615299|12440100455344205E,ZY020000562523|12440100455344205E,ZY010000562523|12440100455344205E,ZY030000562523|12440100455344205E,ZY040000562523|12440100455344205E,ZY100000607140|12440100455344205E,', 'org_ids': True, 'authName': '997', 'access_token': '920b2d32-9919-40d2-91df-569e8d89d224', 'uniqu_no': '9F5E0DC2BB504FFABD279FE3324867D0', 'operatorId': '4467887', 'authUserId': '4467887', 'authToken': '920b2d32-9919-40d2-91df-569e8d89d224'}<Br/><font color='red'>期望字段: </font>好转<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'responseData': [{'reportType': 'lib', 'dataSourceKey': 'XS012', 'data': {'rows': [{'count': 0, 'value': 0, 'group': '一般'}, {'count': 0, 'value': 0, 'group': '急'}, {'count': 20, 'group': '疑难'}, {'count': 0, 'value': 0, 'group': '病重'}, {'count': 0, 'value': 0, 'group': '不详'}]}, 'postion': 3, 'dataType': 'group-count-value', 'chartType': 'bar', 'style': {'color': ['#006cff', '#169ef6', '#6cc83e', '#14d6c6', '#ff4748', '#ff9300', '#fcc328', '#8B40f0'], 'shape': ['bar', 'pie'], 'xAxisDesc': '', 'barMaxWidth': '35', 'showHeader': True, 'legend': {'show': True, 'position': 'top'}, 'label': {'hoverAnimation': True, 'show': True, 'position': 'outside'}, 'yUnit': '', 'title': {'show': False, 'x': '', 'y': ''}, 'isStack': False, 'boxStyle': {'width': '32%', 'height': '300px'}, 'yAxisDesc': '（人）', 'xUnit': ''}, 'title': '病例分型', 'groupNo': 'XSG02', 'dataSource': 'ANAL_REPORT_SOURCE_DATA', 'reportNo': 'XS012'}, {'reportType': 'lib', 'dataSourceKey': 'XS006', 'data': {'rows': [{'count': 0, 'group': '治愈'}, {'count': 13, 'group': '好转'}, {'count': 0, 'group': '未愈'}, {'count': 0, 'group': '恶化'}, {'count': 0, 'group': '死亡'}, {'count': 7, 'group': '不详'}]}, 'postion': 4, 'dataType': 'group-count-value', 'chartType': 'bar', 'style': {'color': ['#006cff', '#169ef6', '#6cc83e', '#14d6c6', '#ff4748', '#ff9300', '#fcc328', '#8B40f0'], 'shape': ['bar', 'pie'], 'xAxisDesc': '', 'barMaxWidth': '35', 'showHeader': True, 'legend': {'show': True, 'position': 'top'}, 'label': {'hoverAnimation': True, 'show': True, 'position': 'outside'}, 'yUnit': '', 'title': {'show': False, 'x': '', 'y': ''}, 'isStack': False, 'boxStyle': {'width': '32%', 'height': '300px'}, 'yAxisDesc': '（人）', 'xUnit': ''}, 'title': '转归', 'groupNo': 'XSG02', 'dataSource': 'ANAL_REPORT_SOURCE_DATA', 'reportNo': 'XS006'}], 'responseExtendData': None, 'responseResult': 'SUCCESS', 'responseMsg': '查询操作成功！', 'responseException': None, 'responseLoginStatus': True, 'responseExceptionMessage': None, 'responseExceptionStackTraceElement': None}}",
+  "descriptionHtml" : "<p><font color='red'>请求URL: </font> http://192.168.0.222:9000/api-sourcedata/quality/control/getReportDatas.json<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>请求参数: </font>{'reportNos': 'XS012,XS006', 'inPatientNos': 'ZY020000633367|12440100455344205E,ZY040000633367|12440100455344205E,ZY030000627064|12440100455344205E,ZY020000608428|12440100455344205E,ZY050000633367|12440100455344205E,ZY030000638484|12440100455344205E,ZY030000633367|12440100455344205E,ZY040000627064|12440100455344205E,ZY060000616498|12440100455344205E,ZY020000634616|12440100455344205E,ZY040000634616|12440100455344205E,ZY040000616498|12440100455344205E,ZY020000627064|12440100455344205E,ZY090000615299|12440100455344205E,ZY030000615299|12440100455344205E,ZY020000562523|12440100455344205E,ZY010000562523|12440100455344205E,ZY030000562523|12440100455344205E,ZY040000562523|12440100455344205E,ZY100000607140|12440100455344205E,', 'org_ids': True, 'authName': '997', 'access_token': '920b2d32-9919-40d2-91df-569e8d89d224', 'uniqu_no': '9F5E0DC2BB504FFABD279FE3324867D0', 'operatorId': '4467887', 'authUserId': '4467887', 'authToken': '920b2d32-9919-40d2-91df-569e8d89d224'}<Br/><font color='red'>期望字段: </font>好转<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'responseData': [{'reportType': 'lib', 'dataSourceKey': 'XS012', 'data': {'rows': [{'count': 0, 'value': 0, 'group': '一般'}, {'count': 0, 'value': 0, 'group': '急'}, {'count': 20, 'group': '疑难'}, {'count': 0, 'value': 0, 'group': '病重'}, {'count': 0, 'value': 0, 'group': '不详'}]}, 'postion': 3, 'dataType': 'group-count-value', 'chartType': 'bar', 'style': {'color': ['#006cff', '#169ef6', '#6cc83e', '#14d6c6', '#ff4748', '#ff9300', '#fcc328', '#8B40f0'], 'shape': ['bar', 'pie'], 'xAxisDesc': '', 'barMaxWidth': '35', 'showHeader': True, 'legend': {'show': True, 'position': 'top'}, 'label': {'hoverAnimation': True, 'show': True, 'position': 'outside'}, 'yUnit': '', 'title': {'show': False, 'x': '', 'y': ''}, 'isStack': False, 'boxStyle': {'width': '32%', 'height': '300px'}, 'yAxisDesc': '（人）', 'xUnit': ''}, 'title': '病例分型', 'groupNo': 'XSG02', 'dataSource': 'ANAL_REPORT_SOURCE_DATA', 'reportNo': 'XS012'}, {'reportType': 'lib', 'dataSourceKey': 'XS006', 'data': {'rows': [{'count': 0, 'group': '治愈'}, {'count': 13, 'group': '好转'}, {'count': 0, 'group': '未愈'}, {'count': 0, 'group': '恶化'}, {'count': 0, 'group': '死亡'}, {'count': 7, 'group': '不详'}]}, 'postion': 4, 'dataType': 'group-count-value', 'chartType': 'bar', 'style': {'color': ['#006cff', '#169ef6', '#6cc83e', '#14d6c6', '#ff4748', '#ff9300', '#fcc328', '#8B40f0'], 'shape': ['bar', 'pie'], 'xAxisDesc': '', 'barMaxWidth': '35', 'showHeader': True, 'legend': {'show': True, 'position': 'top'}, 'label': {'hoverAnimation': True, 'show': True, 'position': 'outside'}, 'yUnit': '', 'title': {'show': False, 'x': '', 'y': ''}, 'isStack': False, 'boxStyle': {'width': '32%', 'height': '300px'}, 'yAxisDesc': '（人）', 'xUnit': ''}, 'title': '转归', 'groupNo': 'XSG02', 'dataSource': 'ANAL_REPORT_SOURCE_DATA', 'reportNo': 'XS006'}], 'responseExtendData': None, 'responseResult': 'SUCCESS', 'responseMsg': '查询操作成功！', 'responseException': None, 'responseLoginStatus': True, 'responseExceptionMessage': None, 'responseExceptionStackTraceElement': None}}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color='red'>请求URL: </font> http://192.168.0.222:9000/api-sourcedata/quality/control/getReportDatas.json<Br/><font color='red'>请求类型: </font>POST<Br/><font color='red'>请求参数: </font>{'reportNos': 'XS012,XS006', 'inPatientNos': 'ZY020000633367|12440100455344205E,ZY040000633367|12440100455344205E,ZY030000627064|12440100455344205E,ZY020000608428|12440100455344205E,ZY050000633367|12440100455344205E,ZY030000638484|12440100455344205E,ZY030000633367|12440100455344205E,ZY040000627064|12440100455344205E,ZY060000616498|12440100455344205E,ZY020000634616|12440100455344205E,ZY040000634616|12440100455344205E,ZY040000616498|12440100455344205E,ZY020000627064|12440100455344205E,ZY090000615299|12440100455344205E,ZY030000615299|12440100455344205E,ZY020000562523|12440100455344205E,ZY010000562523|12440100455344205E,ZY030000562523|12440100455344205E,ZY040000562523|12440100455344205E,ZY100000607140|12440100455344205E,', 'org_ids': True, 'authName': '997', 'access_token': '920b2d32-9919-40d2-91df-569e8d89d224', 'uniqu_no': '9F5E0DC2BB504FFABD279FE3324867D0', 'operatorId': '4467887', 'authUserId': '4467887', 'authToken': '920b2d32-9919-40d2-91df-569e8d89d224'}<Br/><font color='red'>期望字段: </font>好转<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'responseData': [{'reportType': 'lib', 'dataSourceKey': 'XS012', 'data': {'rows': [{'count': 0, 'value': 0, 'group': '一般'}, {'count': 0, 'value': 0, 'group': '急'}, {'count': 20, 'group': '疑难'}, {'count': 0, 'value': 0, 'group': '病重'}, {'count': 0, 'value': 0, 'group': '不详'}]}, 'postion': 3, 'dataType': 'group-count-value', 'chartType': 'bar', 'style': {'color': ['#006cff', '#169ef6', '#6cc83e', '#14d6c6', '#ff4748', '#ff9300', '#fcc328', '#8B40f0'], 'shape': ['bar', 'pie'], 'xAxisDesc': '', 'barMaxWidth': '35', 'showHeader': True, 'legend': {'show': True, 'position': 'top'}, 'label': {'hoverAnimation': True, 'show': True, 'position': 'outside'}, 'yUnit': '', 'title': {'show': False, 'x': '', 'y': ''}, 'isStack': False, 'boxStyle': {'width': '32%', 'height': '300px'}, 'yAxisDesc': '（人）', 'xUnit': ''}, 'title': '病例分型', 'groupNo': 'XSG02', 'dataSource': 'ANAL_REPORT_SOURCE_DATA', 'reportNo': 'XS012'}, {'reportType': 'lib', 'dataSourceKey': 'XS006', 'data': {'rows': [{'count': 0, 'group': '治愈'}, {'count': 13, 'group': '好转'}, {'count': 0, 'group': '未愈'}, {'count': 0, 'group': '恶化'}, {'count': 0, 'group': '死亡'}, {'count': 7, 'group': '不详'}]}, 'postion': 4, 'dataType': 'group-count-value', 'chartType': 'bar', 'style': {'color': ['#006cff', '#169ef6', '#6cc83e', '#14d6c6', '#ff4748', '#ff9300', '#fcc328', '#8B40f0'], 'shape': ['bar', 'pie'], 'xAxisDesc': '', 'barMaxWidth': '35', 'showHeader': True, 'legend': {'show': True, 'position': 'top'}, 'label': {'hoverAnimation': True, 'show': True, 'position': 'outside'}, 'yUnit': '', 'title': {'show': False, 'x': '', 'y': ''}, 'isStack': False, 'boxStyle': {'width': '32%', 'height': '300px'}, 'yAxisDesc': '（人）', 'xUnit': ''}, 'title': '转归', 'groupNo': 'XSG02', 'dataSource': 'ANAL_REPORT_SOURCE_DATA', 'reportNo': 'XS006'}], 'responseExtendData': None, 'responseResult': 'SUCCESS', 'responseMsg': '查询操作成功！', 'responseException': None, 'responseLoginStatus': True, 'responseExceptionMessage': None, 'responseExceptionStackTraceElement': None}}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5629087302f83fc6",
+      "name" : "log",
+      "source" : "5629087302f83fc6.txt",
+      "type" : "text/plain",
+      "size" : 3498
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "相似病例智能分析"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "Test_02akso"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAKSO"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-3M571DA"
+  }, {
+    "name" : "thread",
+    "value" : "5472-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.Test_02akso"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "r_data",
+    "value" : "{'case_name': 'AKSO住院指标统计--诊断', 'url': '/api-sourcedata/quality/control/getReportDatas.json', 'method': 'POST', 'data': {'reportNos': 'XS012,XS006', 'inPatientNos': 'ZY020000633367|12440100455344205E,ZY040000633367|12440100455344205E,ZY030000627064|12440100455344205E,ZY020000608428|12440100455344205E,ZY050000633367|12440100455344205E,ZY030000638484|12440100455344205E,ZY030000633367|12440100455344205E,ZY040000627064|12440100455344205E,ZY060000616498|12440100455344205E,ZY020000634616|12440100455344205E,ZY040000634616|12440100455344205E,ZY040000616498|12440100455344205E,ZY020000627064|12440100455344205E,ZY090000615299|12440100455344205E,ZY030000615299|12440100455344205E,ZY040000562523|12440100455344205E,ZY010000562523|12440100455344205E,ZY020000562523|12440100455344205E,ZY030000562523|12440100455344205E,ZY100000607140|12440100455344205E', 'org_ids': True, 'authName': 997, 'access_token': '2b9432e3-966b-4872-b895-cba9d4bcdea1', 'uniqu_no': '9F5E0DC2BB504FFABD279FE3324867D0', 'operatorId': 4467887, 'authUserId': 4467887, 'authToken': '2b9432e3-966b-4872-b895-cba9d4bcdea1'}, 'expect': '好转'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6c94e6c3246716e5.json",
+  "parameterValues" : [ "{'case_name': 'AKSO住院指标统计--诊断', 'url': '/api-sourcedata/quality/control/getReportDatas.json', 'method': 'POST', 'data': {'reportNos': 'XS012,XS006', 'inPatientNos': 'ZY020000633367|12440100455344205E,ZY040000633367|12440100455344205E,ZY030000627064|12440100455344205E,ZY020000608428|12440100455344205E,ZY050000633367|12440100455344205E,ZY030000638484|12440100455344205E,ZY030000633367|12440100455344205E,ZY040000627064|12440100455344205E,ZY060000616498|12440100455344205E,ZY020000634616|12440100455344205E,ZY040000634616|12440100455344205E,ZY040000616498|12440100455344205E,ZY020000627064|12440100455344205E,ZY090000615299|12440100455344205E,ZY030000615299|12440100455344205E,ZY040000562523|12440100455344205E,ZY010000562523|12440100455344205E,ZY020000562523|12440100455344205E,ZY030000562523|12440100455344205E,ZY100000607140|12440100455344205E', 'org_ids': True, 'authName': 997, 'access_token': '2b9432e3-966b-4872-b895-cba9d4bcdea1', 'uniqu_no': '9F5E0DC2BB504FFABD279FE3324867D0', 'operatorId': 4467887, 'authUserId': 4467887, 'authToken': '2b9432e3-966b-4872-b895-cba9d4bcdea1'}, 'expect': '好转'}" ]
+}

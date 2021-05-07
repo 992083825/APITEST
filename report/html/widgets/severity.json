@@ -1,0 +1,461 @@
+[ {
+  "uid" : "34582f125a66eb8c",
+  "name" : "HRDP删除科室",
+  "time" : {
+    "start" : 1620385335515,
+    "stop" : 1620385335680,
+    "duration" : 165
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "acc9cf362073d23b",
+  "name" : "获取主要诊断为哮喘的患者列表",
+  "time" : {
+    "start" : 1620385319059,
+    "stop" : 1620385319313,
+    "duration" : 254
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e0b24c004b0bb1b",
+  "name" : "HRDP患者评分",
+  "time" : {
+    "start" : 1620385335196,
+    "stop" : 1620385335287,
+    "duration" : 91
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb5068179e2f107e",
+  "name" : "HRDP量表数据",
+  "time" : {
+    "start" : 1620385334878,
+    "stop" : 1620385334985,
+    "duration" : 107
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc84481bd7f7887e",
+  "name" : "AKSO治疗路径",
+  "time" : {
+    "start" : 1620385324168,
+    "stop" : 1620385326458,
+    "duration" : 2290
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "62bdeb907a950592",
+  "name" : "HRDP量表答案",
+  "time" : {
+    "start" : 1620385333622,
+    "stop" : 1620385333832,
+    "duration" : 210
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "38ebb167429ec44a",
+  "name" : "获取医院科室信息",
+  "time" : {
+    "start" : 1620385336011,
+    "stop" : 1620385336122,
+    "duration" : 111
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e685802d27f7c3f",
+  "name" : "HRDP新建疾病",
+  "time" : {
+    "start" : 1620385327631,
+    "stop" : 1620385327832,
+    "duration" : 201
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "355a836195c9d797",
+  "name" : "AKSO相似病例智能分析记录",
+  "time" : {
+    "start" : 1620385327478,
+    "stop" : 1620385327616,
+    "duration" : 138
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc8bfb57bd1283e3",
+  "name" : "获取AKSO患者列表信息",
+  "time" : {
+    "start" : 1620385318310,
+    "stop" : 1620385318794,
+    "duration" : 484
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c9b19baa59539a88",
+  "name" : "HRDP量表支持-文献来源",
+  "time" : {
+    "start" : 1620385333841,
+    "stop" : 1620385333925,
+    "duration" : 84
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d62a889dbc492b14",
+  "name" : "HRDP选择填写量表的患者",
+  "time" : {
+    "start" : 1620385329370,
+    "stop" : 1620385333605,
+    "duration" : 4235
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a070d8e0cce4d771",
+  "name" : "AKSO查询咳嗽时的联想词",
+  "time" : {
+    "start" : 1620385319665,
+    "stop" : 1620385319736,
+    "duration" : 71
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fefe58ca75ef8114",
+  "name" : "HRDP新增子科室，并绑定咳嗽疾病",
+  "time" : {
+    "start" : 1620385328384,
+    "stop" : 1620385328471,
+    "duration" : 87
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dee8e5062cc3b4b1",
+  "name" : "HRDP禁用后启用量表",
+  "time" : {
+    "start" : 1620385329292,
+    "stop" : 1620385329363,
+    "duration" : 71
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "baff5487f361a0cb",
+  "name" : "HRDP删除量表",
+  "time" : {
+    "start" : 1620385335399,
+    "stop" : 1620385335502,
+    "duration" : 103
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "60b01bd36c5bcc55",
+  "name" : "HRDP量表列表",
+  "time" : {
+    "start" : 1620385328898,
+    "stop" : 1620385329080,
+    "duration" : 182
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c94e6c3246716e5",
+  "name" : "AKSO住院指标统计--诊断",
+  "time" : {
+    "start" : 1620385323609,
+    "stop" : 1620385323718,
+    "duration" : 109
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e0791308705eab9",
+  "name" : "HRDP新增一级科室",
+  "time" : {
+    "start" : 1620385328038,
+    "stop" : 1620385328122,
+    "duration" : 84
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bfbccfd8a13c725b",
+  "name" : "AKSO住院指标统计--检查",
+  "time" : {
+    "start" : 1620385324060,
+    "stop" : 1620385324158,
+    "duration" : 98
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc166b63496b47fb",
+  "name" : "HRDP量表评分详情",
+  "time" : {
+    "start" : 1620385334228,
+    "stop" : 1620385334329,
+    "duration" : 101
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b22de25714ca0a7",
+  "name" : "HRDP禁用后启用量表",
+  "time" : {
+    "start" : 1620385329215,
+    "stop" : 1620385329285,
+    "duration" : 70
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa5f3d988d3fb779",
+  "name" : "HRDP提交量表",
+  "time" : {
+    "start" : 1620385334341,
+    "stop" : 1620385334871,
+    "duration" : 530
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ee2185061486f1f",
+  "name" : "HRDP量表趋势分析",
+  "time" : {
+    "start" : 1620385335301,
+    "stop" : 1620385335392,
+    "duration" : 91
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1cab6555e5495c9",
+  "name" : "AKSO住院指标统计--药品",
+  "time" : {
+    "start" : 1620385323861,
+    "stop" : 1620385323948,
+    "duration" : 87
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "df584d8a8a61d227",
+  "name" : "HRDP量表内容详情",
+  "time" : {
+    "start" : 1620385334041,
+    "stop" : 1620385334218,
+    "duration" : 177
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b079b0b50cbd4464",
+  "name" : "登录接口",
+  "time" : {
+    "start" : 1620385335784,
+    "stop" : 1620385335999,
+    "duration" : 215
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "604c9296709e85b1",
+  "name" : "获取AKSO搜索条件信息",
+  "time" : {
+    "start" : 1620385319592,
+    "stop" : 1620385319656,
+    "duration" : 64
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6dfd658d2b15a340",
+  "name" : "AKSO咳嗽患者的权重(易报错的接口)",
+  "time" : {
+    "start" : 1620385319757,
+    "stop" : 1620385323462,
+    "duration" : 3705
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aef9bd873e3dcd7b",
+  "name" : "HRDP选择量表",
+  "time" : {
+    "start" : 1620385328589,
+    "stop" : 1620385328776,
+    "duration" : 187
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a58e4aa9a0c95986",
+  "name" : "AKSO住院指标统计--基本信息",
+  "time" : {
+    "start" : 1620385323480,
+    "stop" : 1620385323596,
+    "duration" : 116
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b380b0344c7617c",
+  "name" : "HRDP量表信息—证据说明",
+  "time" : {
+    "start" : 1620385333933,
+    "stop" : 1620385334022,
+    "duration" : 89
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "263445162bc7e475",
+  "name" : "获取症状为气喘的患者列表",
+  "time" : {
+    "start" : 1620385318805,
+    "stop" : 1620385319052,
+    "duration" : 247
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f6c71299b126df0",
+  "name" : "HRDP新建量表",
+  "time" : {
+    "start" : 1620385328794,
+    "stop" : 1620385328891,
+    "duration" : 97
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "62be0c8004cb536a",
+  "name" : "HRDP搜索auto一级科室",
+  "time" : {
+    "start" : 1620385328130,
+    "stop" : 1620385328376,
+    "duration" : 246
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f9dbce590505e17",
+  "name" : "test_get_patients_with_cough[p_cough0]",
+  "time" : {
+    "start" : 1620385319325,
+    "stop" : 1620385319580,
+    "duration" : 255
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b234823648ef4830",
+  "name" : "HRDP已提交量表的列表",
+  "time" : {
+    "start" : 1620385334992,
+    "stop" : 1620385335065,
+    "duration" : 73
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fbde9fd94e66ad1c",
+  "name" : "HRDP修改量表",
+  "time" : {
+    "start" : 1620385329086,
+    "stop" : 1620385329207,
+    "duration" : 121
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d147c5bfd7f95b54",
+  "name" : "AKSO住院指标统计--临床表现",
+  "time" : {
+    "start" : 1620385323729,
+    "stop" : 1620385323850,
+    "duration" : 121
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "95ebc92bec0ff9f3",
+  "name" : "HRDP搜索咳嗽关键词的疾病列表",
+  "time" : {
+    "start" : 1620385327842,
+    "stop" : 1620385328029,
+    "duration" : 187
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e09324eb1e6801ea",
+  "name" : "HRDP修改科室信息",
+  "time" : {
+    "start" : 1620385328481,
+    "stop" : 1620385328580,
+    "duration" : 99
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "593eb230d1f735d1",
+  "name" : "AKSO住院指标统计--检验",
+  "time" : {
+    "start" : 1620385323957,
+    "stop" : 1620385324053,
+    "duration" : 96
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0107f289ae7e391",
+  "name" : "AKSO患者诊疗时间轴",
+  "time" : {
+    "start" : 1620385326466,
+    "stop" : 1620385327175,
+    "duration" : 709
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee8cad877ad91642",
+  "name" : "HRDP已提交量表的答案",
+  "time" : {
+    "start" : 1620385335073,
+    "stop" : 1620385335188,
+    "duration" : 115
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "25cc79ee67bf4ca3",
+  "name" : "AKSO患者对比",
+  "time" : {
+    "start" : 1620385327185,
+    "stop" : 1620385327470,
+    "duration" : 285
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "28778b151b1f5c1e",
+  "name" : "HRDP删除疾病",
+  "time" : {
+    "start" : 1620385335686,
+    "stop" : 1620385335778,
+    "duration" : 92
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
