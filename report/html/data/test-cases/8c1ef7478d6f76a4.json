@@ -1,0 +1,81 @@
+{
+  "uid" : "8c1ef7478d6f76a4",
+  "name" : "HRDP量表列表",
+  "fullName" : "testcase.Test_03hrdp.TestHRDP#test_evaluate_list[eva_list0]",
+  "historyId" : "88de7cd4dba8504524f57c1794772c3d",
+  "time" : {
+    "start" : 1620391222125,
+    "stop" : 1620391222300,
+    "duration" : 175
+  },
+  "description" : "<font color='red'>请求URL: </font> http://192.168.0.222:9000/api-project/evaluate/scale/list<Br/><font color='red'>请求类型: </font>GET<Br/><font color='red'>请求参数: </font>{'qtTitle': '慢性阻塞性肺疾病筛查问卷 (COPD-PS)', 'departmentIds': '', 'diseaseIds': None, 'size': 10, 'current': 1, 'state': '', 'columnName': 'created_date', 'sort': '', 'org_ids': True, 'authName': '997', 'access_token': '5356759d-4106-48c2-980e-13ada11674cb', 'uniqu_no': '9F5E0DC2BB504FFABD279FE3324867D0', 'operatorId': '4467887', 'authUserId': '4467887', 'authToken': '5356759d-4106-48c2-980e-13ada11674cb'}<Br/><font color='red'>期望字段: </font>慢性阻塞性肺疾病筛查问卷 (COPD-PS)<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'code': 1, 'msg': '成功', 'data': {'content': [{'id': '1390647696827621377', 'qtId': '481183874634878976', 'qtUrl': 'http://gyfyy.com/fhir/Questionnaire/mxzsxfjbscwjCOPDPS-1594889641308', 'qtTitle': '慢性阻塞性肺疾病筛查问卷 (COPD-PS)', 'diseasesList': ['1386134239147241473'], 'description': '这是描述', 'state': 'enable', 'status': 1, 'answerNum': None, 'createdDate': '2021-05-07 20:40:22'}], 'pageable': {'sort': {'sorted': False, 'unsorted': True, 'empty': True}, 'offset': '0', 'pageNumber': 0, 'pageSize': 10, 'paged': True, 'unpaged': False}, 'totalPages': 1, 'last': True, 'totalElements': '1', 'size': 10, 'number': 0, 'sort': {'sorted': False, 'unsorted': True, 'empty': True}, 'first': True, 'numberOfElements': 1, 'empty': False}}}",
+  "descriptionHtml" : "<p><font color='red'>请求URL: </font> http://192.168.0.222:9000/api-project/evaluate/scale/list<Br/><font color='red'>请求类型: </font>GET<Br/><font color='red'>请求参数: </font>{'qtTitle': '慢性阻塞性肺疾病筛查问卷 (COPD-PS)', 'departmentIds': '', 'diseaseIds': None, 'size': 10, 'current': 1, 'state': '', 'columnName': 'created_date', 'sort': '', 'org_ids': True, 'authName': '997', 'access_token': '5356759d-4106-48c2-980e-13ada11674cb', 'uniqu_no': '9F5E0DC2BB504FFABD279FE3324867D0', 'operatorId': '4467887', 'authUserId': '4467887', 'authToken': '5356759d-4106-48c2-980e-13ada11674cb'}<Br/><font color='red'>期望字段: </font>慢性阻塞性肺疾病筛查问卷 (COPD-PS)<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'code': 1, 'msg': '成功', 'data': {'content': [{'id': '1390647696827621377', 'qtId': '481183874634878976', 'qtUrl': 'http://gyfyy.com/fhir/Questionnaire/mxzsxfjbscwjCOPDPS-1594889641308', 'qtTitle': '慢性阻塞性肺疾病筛查问卷 (COPD-PS)', 'diseasesList': ['1386134239147241473'], 'description': '这是描述', 'state': 'enable', 'status': 1, 'answerNum': None, 'createdDate': '2021-05-07 20:40:22'}], 'pageable': {'sort': {'sorted': False, 'unsorted': True, 'empty': True}, 'offset': '0', 'pageNumber': 0, 'pageSize': 10, 'paged': True, 'unpaged': False}, 'totalPages': 1, 'last': True, 'totalElements': '1', 'size': 10, 'number': 0, 'sort': {'sorted': False, 'unsorted': True, 'empty': True}, 'first': True, 'numberOfElements': 1, 'empty': False}}}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color='red'>请求URL: </font> http://192.168.0.222:9000/api-project/evaluate/scale/list<Br/><font color='red'>请求类型: </font>GET<Br/><font color='red'>请求参数: </font>{'qtTitle': '慢性阻塞性肺疾病筛查问卷 (COPD-PS)', 'departmentIds': '', 'diseaseIds': None, 'size': 10, 'current': 1, 'state': '', 'columnName': 'created_date', 'sort': '', 'org_ids': True, 'authName': '997', 'access_token': '5356759d-4106-48c2-980e-13ada11674cb', 'uniqu_no': '9F5E0DC2BB504FFABD279FE3324867D0', 'operatorId': '4467887', 'authUserId': '4467887', 'authToken': '5356759d-4106-48c2-980e-13ada11674cb'}<Br/><font color='red'>期望字段: </font>慢性阻塞性肺疾病筛查问卷 (COPD-PS)<Br/><font color='red'>实际结果: </font>{'code': 200, 'body': {'code': 1, 'msg': '成功', 'data': {'content': [{'id': '1390647696827621377', 'qtId': '481183874634878976', 'qtUrl': 'http://gyfyy.com/fhir/Questionnaire/mxzsxfjbscwjCOPDPS-1594889641308', 'qtTitle': '慢性阻塞性肺疾病筛查问卷 (COPD-PS)', 'diseasesList': ['1386134239147241473'], 'description': '这是描述', 'state': 'enable', 'status': 1, 'answerNum': None, 'createdDate': '2021-05-07 20:40:22'}], 'pageable': {'sort': {'sorted': False, 'unsorted': True, 'empty': True}, 'offset': '0', 'pageNumber': 0, 'pageSize': 10, 'paged': True, 'unpaged': False}, 'totalPages': 1, 'last': True, 'totalElements': '1', 'size': 10, 'number': 0, 'sort': {'sorted': False, 'unsorted': True, 'empty': True}, 'first': True, 'numberOfElements': 1, 'empty': False}}}",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "12435d3f93767086",
+      "name" : "log",
+      "source" : "12435d3f93767086.txt",
+      "type" : "text/plain",
+      "size" : 2218
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "高危疾病风险预测"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "Test_03hrdp"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestHRDP"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-3M571DA"
+  }, {
+    "name" : "thread",
+    "value" : "10892-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.Test_03hrdp"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "eva_list",
+    "value" : "{'case_name': 'HRDP量表列表', 'url': '/api-project/evaluate/scale/list', 'method': 'GET', 'data': {'qtTitle': '慢性阻塞性肺疾病筛查问卷 (COPD-PS)', 'departmentIds': '', 'diseaseIds': None, 'size': 10, 'current': 1, 'state': '', 'columnName': 'created_date', 'sort': '', 'org_ids': True, 'authName': 997, 'access_token': '13429894-0e16-4711-bc76-680eec390c12', 'uniqu_no': '9F5E0DC2BB504FFABD279FE3324867D0', 'operatorId': 4467887, 'authUserId': 4467887, 'authToken': '13429894-0e16-4711-bc76-680eec390c12'}, 'expect': '慢性阻塞性肺疾病筛查问卷 (COPD-PS)'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8c1ef7478d6f76a4.json",
+  "parameterValues" : [ "{'case_name': 'HRDP量表列表', 'url': '/api-project/evaluate/scale/list', 'method': 'GET', 'data': {'qtTitle': '慢性阻塞性肺疾病筛查问卷 (COPD-PS)', 'departmentIds': '', 'diseaseIds': None, 'size': 10, 'current': 1, 'state': '', 'columnName': 'created_date', 'sort': '', 'org_ids': True, 'authName': 997, 'access_token': '13429894-0e16-4711-bc76-680eec390c12', 'uniqu_no': '9F5E0DC2BB504FFABD279FE3324867D0', 'operatorId': 4467887, 'authUserId': 4467887, 'authToken': '13429894-0e16-4711-bc76-680eec390c12'}, 'expect': '慢性阻塞性肺疾病筛查问卷 (COPD-PS)'}" ]
+}
