@@ -1,0 +1,21 @@
+
+---
+# 测试用例名称
+"case_name": "获取Titan筛选的数据列表"
+# url地址
+"url": "/api-sourcedata/dme/dataIndexValue/getTreeList.json"
+# 请求类型
+"method": "GET"
+# data
+"data":
+  type: 6
+  org_ids: true
+  authName: 997
+  access_token: e7d184d0-329b-49c3-88ea-eed6a5d2d391
+  uniqu_no: 9F5E0DC2BB504FFABD279FE3324867D0
+  operatorId: 4467887
+  authUserId: 4467887
+  authToken: e7d184d0-329b-49c3-88ea-eed6a5d2d391
+# 期望结果
+expect:
+  "成功"

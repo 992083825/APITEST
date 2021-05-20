@@ -1,0 +1,22 @@
+
+---
+# 测试用例名称
+"case_name": "获取Titan筛选的数据列表"
+# url地址
+"url": "/api-sourcedata/dataIndex/dataIndexValue/getDataIndexValueTreeList.json"
+# 请求类型
+"method": "GET"
+# data
+"data":
+  diseaseIds: 1,140,144,142,141,145,160,181
+  topCategoryIds: 3108
+  org_ids: true
+  authName: 测试01
+  access_token: 53859f60-7cfc-4c27-9417-655e1057d1d1
+  uniqu_no: B7416D079B3D3FB8E0532700A8C02327
+  operatorId: 4316327
+  authUserId: 4316327
+  authToken: 53859f60-7cfc-4c27-9417-655e1057d1d1
+# 期望结果
+expect:
+  "成功"

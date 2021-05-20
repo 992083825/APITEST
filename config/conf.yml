@@ -4,7 +4,7 @@ BASE:
  # 扩展名
  log_extension: ".log"
  test:
-   url: "http://192.168.0.222:9000"
+   url: "http://192.168.0.12:9000"
 
 login:
   url: /api-auth/login
@@ -12,6 +12,15 @@ login:
     userName: "997"
     passwd: tP123456@
     orgId: 75635
+
+titan:
+
+  - TITAN筛选_广医_慢阻肺
+  - TITAN筛选_广医_支气管扩张
+  - TITAN筛选_广医_肺动脉高压
+  - TITAN筛选_广医_肺部真菌感染
+  - TITAN筛选_广医_间质性肺疾病
+
 
 email:
   smtpserver: smtp.qq.com

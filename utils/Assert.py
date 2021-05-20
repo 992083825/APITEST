@@ -1,4 +1,3 @@
-
 """
 封装Assert方法
 
@@ -100,3 +99,25 @@ class Assertions:
             self.log.error("Response time > expected_time, expected_time is %s, time is %s" % (expected_time, time))
 
             raise
+
+    def assert_in_titan_data(self, test_list, standard_list, indicator_name):
+        try:
+            if set(test_list).difference(set(standard_list)):
+                assert False
+            else:
+                return True
+        except:
+            diff1 = set(test_list).difference(set(standard_list))
+            diff2 = set(standard_list).difference(set(test_list))
+            if str(diff1) != "":
+                str_diff1 = indicator_name + "病种，16环境比待测试环境多的指标为：" + str(diff1)
+            else:
+                str_diff1 = indicator_name + "病种，16环境没有比待测试环境多的指标 "
+            if str(diff1) != "":
+                str_diff2 = indicator_name + "病种，待测试环境比16环境多的指标为：" + str(diff2)
+            else:
+                str_diff2 = indicator_name + "病种，待测试环境没有比16环境多的指标 "
+            self.log.error(str_diff1)
+            self.log.error(str_diff2)
+
+            # raise

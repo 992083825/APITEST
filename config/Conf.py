@@ -17,6 +17,9 @@ _data_path = BASE_DIR + os.sep + "data"
 # 定义report目录的路径
 _report_path = BASE_DIR + os.sep + "report"
 
+# 定义天塔规范指标的路径
+_titan_indicator_path = BASE_DIR + os.sep + "titan_standard_indicator"
+
 # 定义conf.yml文件的路径
 _config_file = _config_path + os.sep + "conf.yml"
 # 定义login.yml文件的路径
@@ -33,6 +36,14 @@ def get_report_path():
     :return:
     """
     return _report_path
+
+
+def get_titan_indicator_path():
+    """
+    获取天塔规范指标的绝对路径
+    :return:
+    """
+    return _titan_indicator_path
 
 
 def get_data_path():
@@ -104,6 +115,13 @@ class ConfigYaml:
         :return:
         """
         return self.config["login"]
+
+    def get_titan_info(self):
+        """
+        获取用户配置相关信息
+        :return:
+        """
+        return self.config["titan"]
 
     def get_login_info(self):
         """
